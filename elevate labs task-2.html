@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Email Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            width: 60%;
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto 30px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h2 {
+            color: #333;
+              }
+    </style>
+</head>
+<body>
+
+    <h2>Phishing Email Analysis Report</h2>
+
+    <!-- Images Section -->
+    <img src="Screenshot t2-1.png" alt="Phishing Email Screenshot 1">
+    <img src="Screenshot t2-2.png" alt="Phishing Email Screenshot 2">
+
+    <!-- Details Obtained -->
+    <h2>Details Obtained</h2>
+    <p><strong>Sender:</strong> tiktok@cloud-notification-services[.]com</p>
+    <p><strong>Recipient:</strong> john[.]doe@mybusiness[.]com</p>
+    <p><strong>Subject:</strong> New Device Login</p>
+    <p><strong>Message:</strong> Verification code provided with an urgent "Reset Password" action button.</p>
+
+    <!-- Phishing Characteristics Table -->
+    <h2>Phishing Characteristics Identified</h2>
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>Phishing Indicator</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Suspicious Sender Address</td>
+            <td>Uses a fake domain similar to TikTok but not official (@cloud-notification-services[.]com). The actual domain is @tiktok.com</td>
+  </tr>
+        <tr>
+            <td>2</td>
+            <td>Urgency Language</td>
+            <td>Mentions new device login to create panic and make the user act fast.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fake Verification Code</td>
+            <td>Provides a random verification code (846752) to appear authentic.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Suspicious "Reset Password" Button</td>
+            <td>Encourages clicking to potentially lead to a fake or malicious site.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Generic Greeting</td>
+            <td>Does not address the recipient personally, unlike legitimate services.</td>
+        </tr>
+    </table>
+
+</body>
+</html>
